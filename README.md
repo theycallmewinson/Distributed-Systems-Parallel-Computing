@@ -9,36 +9,6 @@ This project implements a **Linear Equation Solver** for systems in the form of 
 3. **MPI (Distributed Memory):** Multi-process parallelization for clusters.
 4. **CUDA (Heterogeneous):** GPU-accelerated massive parallelism.
 
-The goal is to compare how different parallel paradigms handle the cubic complexity () of matrix factorization.
-
-> **Analogy:** Think of this project like trying to clean a massive mansion (the matrix).
-> * **Serial:** You clean the whole house by yourself, room by room. It works, but it takes forever.
-> * **OpenMP:** You invite 8 friends over. You all are in the same house (shared memory) and can easily shout to each other to coordinate who cleans which room.
-> * **MPI:** You split the mansion into separate wings. Each cleaner is in a different wing and can't see the others; they have to use walkie-talkies (network messages) to coordinate. If the wings are small, you spend more time talking on the radio than cleaning!
-> * **CUDA:** You unleash 1,000 tiny robot vacuums. Individually they are weak, but together they clean the entire floor plan in seconds.
-> 
-> 
-
----
-
-**Course:** AMCS2103 Distributed Systems and Parallel Computing **Institution:** Tunku Abdul Rahman University of Management and Technology 
-
----
-
-## Project Structure
-
-```text
-/
-├── code/
-│   ├── serial.cpp       # Baseline sequential C++ implementation
-│   ├── openmp.cpp       # Shared-memory parallelization using OpenMP
-│   ├── mpi.cpp          # Distributed-memory parallelization using MPI
-│   └── CUDA.cu          # GPU-accelerated implementation using CUDA
-├── Report.pdf           # Full project documentation and analysis
-└── README.md            # Project documentation
-
-```
-
 ---
 
 ## Prerequisites
