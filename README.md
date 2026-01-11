@@ -18,8 +18,7 @@ To compile and run these solvers, you need the following installed on your syste
 1. **C++ Compiler:** GCC (g++) or MSVC.
 2. **OpenMP:** Usually bundled with GCC; enabled via flags.
 3. **MPI Library:** MS-MPI (Windows) or MPICH/OpenMPI (Linux).
-4. 
-**NVIDIA CUDA Toolkit:** `nvcc` compiler and compatible NVIDIA GPU (tested on RTX 4060).
+4. **NVIDIA CUDA Toolkit:** `nvcc` compiler and compatible NVIDIA GPU (tested on RTX 4060).
 
 ## Methodology
 
